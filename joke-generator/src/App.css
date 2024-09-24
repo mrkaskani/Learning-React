@@ -1,0 +1,51 @@
+. {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+}
+
+body {
+  background: #334703;
+  align-items: center;
+  color: beige;
+}
+
+.joke-title-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.joke-title {
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  color: white;
+  background: hsl(88, 47%, 43%);
+  padding: 6px 15px;
+  border: none;
+  border-radius: 6px;
+  transition: background-color .5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: hsl(91, 83%, 76%);
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  margin-bottom: 5px;
+}
+
+.button:active {
+  background: hsl(106, 77%, 27%);
+}
+
+.joke {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  max-width: 400px;
+}
