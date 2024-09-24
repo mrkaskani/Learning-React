@@ -1,1 +1,1 @@
-### Some dummy projects for learning and practcing **React**
+ Some dummy projects for learning and practicing **React**
