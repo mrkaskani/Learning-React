@@ -23,6 +23,7 @@ chrome-user-data
 .vscode
 *.swp
 *.swo
+.gitignore
 
 packages/react-devtools-core/dist
 packages/react-devtools-extensions/chrome/build
@@ -39,3 +40,4 @@ packages/react-devtools-shell/dist
 packages/react-devtools-timeline/dist
 form-validation/node_modules
 joke-generator/node_modules
+password-validator/node_modules
